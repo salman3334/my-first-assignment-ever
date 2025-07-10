@@ -7,7 +7,7 @@
 }
 
 body {
-  /* No background color or image */
+
 }
 
 /* Navbar */
@@ -70,7 +70,7 @@ body {
 /* Action Section */
 .action {
   padding: 80px 20px;
-  background-color: lightgray; /* ✅ Background color added */
+  background-color: lightgray; 
 }
 
 .action-container {
@@ -119,4 +119,38 @@ body {
   max-width: 100%;
   height: auto;
   border-radius: 10px;
+}
+/* 4th one  */
+/* Productive Users Section */
+.productive-users {
+  background-color: lavender; 
+  padding: 60px 20px;
+  text-align: center;
+  border-radius: 10px;
+  margin: 40px 0;
+}
+
+.productive-users h2 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 40px;
+  color: black; 
+}
+
+.user-stats {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  flex-wrap: wrap;
+}
+
+.stat-box h3 {
+  font-size: 32px;
+  color: blue; /* 🔹 বড় সংখ্যাগুলার রঙ */
+  margin-bottom: 10px;
+}
+
+.stat-box p {
+  font-size: 14px;
+  color: gray; /* 🔹 ছোট সাবটাইটেলের রঙ */
 }
