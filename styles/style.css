@@ -1,0 +1,35 @@
+/* Navbar Style */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-image: url('../Assets/banner-bg.jpg'); /* তোর ইমেজ নাম বসা লাগবে */
+  background-size: cover;
+  background-position: center;
+  padding: 20px 60px;
+  height: 100px;
+  color: white;
+}
+
+/* Logo Style */
+.logo {
+  font-size: 22px;
+  font-weight: bold;
+  color: navy; /* color name use korlam */
+}
+
+/* Sign Up Button */
+.signup-btn {
+  background-color: blue;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.signup-btn:hover {
+  background-color: darkblue;
+}
