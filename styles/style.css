@@ -66,3 +66,57 @@ body {
 .focus-btn {
   background-color: blue;
 }
+/* hi bro */
+/* Action Section */
+.action {
+  padding: 80px 20px;
+  background-color: lightgray; /* ✅ Background color added */
+}
+
+.action-container {
+  max-width: 1200px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+.action-text {
+  flex: 1;
+}
+
+.action-text h2 {
+  font-size: 32px;
+  color: navy;
+  margin-bottom: 20px;
+}
+
+.action-text p {
+  font-size: 18px;
+  color: #333;
+  margin-bottom: 30px;
+}
+
+.live-preview-btn {
+  background-color: green;
+}
+
+/* Button hover animation */
+.live-preview-btn:hover {
+  transform: scale(1.05);
+  background-color: darkgreen;
+}
+
+/* Right-side Image */
+.action-image {
+  flex: 1;
+  text-align: center;
+}
+
+.action-image img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
