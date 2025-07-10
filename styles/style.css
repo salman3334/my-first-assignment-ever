@@ -1,35 +1,68 @@
-/* Navbar Style */
+/* Global styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body {
+  /* No background color or image */
+}
+
+/* Navbar */
 .navbar {
+  background-image: url('../Assets/navbar-bg.jpg');
+  background-size: cover;
+  background-position: center;
+  padding: 20px 0;
+}
+
+.container {
+  max-width: 1200px;
+  margin: auto;
+  padding: 0 20px;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-image: url('../Assets/banner-bg.jpg'); /* তোর ইমেজ নাম বসা লাগবে */
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  color: navy;
+}
+
+.btn {
+  background-color: navy;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 6px;
+  transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.btn:hover {
+  transform: scale(1.05);
+  background-color: royalblue;
+}
+
+/* Banner Section */
+.banner {
+  background-image: url('../Assets/Hero-bg.jpg');
   background-size: cover;
   background-position: center;
-  padding: 20px 60px;
-  height: 100px;
-  color: white;
+  text-align: center;
+  padding: 100px 20px;
 }
 
-/* Logo Style */
-.logo {
-  font-size: 22px;
-  font-weight: bold;
-  color: navy; /* color name use korlam */
+.banner-content h1 {
+  font-size: 36px;
+  color: black;
+  margin-bottom: 30px;
 }
 
-/* Sign Up Button */
-.signup-btn {
+.focus-btn {
   background-color: blue;
-  color: white;
-  padding: 10px 20px;
-  border: none;
-  border-radius: 8px;
-  font-weight: bold;
-  cursor: pointer;
-  transition: background-color 0.3s ease;
-}
-
-.signup-btn:hover {
-  background-color: darkblue;
 }
