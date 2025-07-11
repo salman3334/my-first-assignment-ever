@@ -219,3 +219,36 @@ body {
   background-color: navy;
   transform: scale(1.05);
 }
+/* footer */
+/* Footer Section */
+.site-footer {
+  background-color: white;
+  text-align: center;
+  padding: 40px 20px;
+  border-top: 1px solid lightgray;
+}
+
+.footer-logo {
+  font-size: 28px;
+  color: blue;
+  margin-bottom: 10px;
+}
+
+.footer-subtitle {
+  color: gray;
+  max-width: 600px;
+  margin: 0 auto 20px;
+  font-size: 14px;
+}
+
+.footer-links a {
+  margin: 0 15px;
+  text-decoration: none;
+  color: gray;
+  font-size: 14px;
+  transition: color 0.3s ease;
+}
+
+.footer-links a:hover {
+  color: blue;
+}
