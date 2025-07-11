@@ -146,11 +146,76 @@ body {
 
 .stat-box h3 {
   font-size: 32px;
-  color: blue; /* 🔹 বড় সংখ্যাগুলার রঙ */
+  color: blue; /* 🔹*/
   margin-bottom: 10px;
 }
 
 .stat-box p {
   font-size: 14px;
-  color: gray; /* 🔹 ছোট সাবটাইটেলের রঙ */
+  color: gray; /* 🔹 */
+}
+/* email section */
+/* Contact Section */
+.contact-section {
+  background-color: lavender;
+  padding: 60px 20px;
+}
+
+.contact-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 40px;
+  max-width: 1000px;
+  margin: 0 auto;
+  flex-wrap: wrap;
+}
+
+.contact-title h2 {
+  font-size: 36px;
+  color: black;
+  line-height: 1.2;
+}
+
+.contact-form {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-form label {
+  margin: 10px 0 5px;
+  font-weight: bold;
+}
+
+.contact-form input,
+.contact-form textarea {
+  padding: 10px;
+  font-size: 14px;
+  border: 1px solid lightgray;
+  border-radius: 6px;
+  margin-bottom: 10px;
+}
+
+.contact-form textarea {
+  resize: vertical;
+  height: 100px;
+}
+
+/* Button with hover effect */
+.contact-btn {
+  background-color: blue;
+  color: white;
+  padding: 12px 20px;
+  font-size: 14px;
+  border: none;
+  border-radius: 6px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.contact-btn:hover {
+  background-color: navy;
+  transform: scale(1.05);
 }
